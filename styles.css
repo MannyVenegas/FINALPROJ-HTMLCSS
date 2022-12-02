@@ -1,0 +1,140 @@
+body {
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1363px;
+    margin-bottom: 3rem;
+}
+nav {
+    background-color: gray;
+    border-radius: 10%;
+}
+
+#promotion{
+    background-image: url(klara-kulikova-X3bRB6-r1a8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-bottom: 1.5rem;
+}
+
+#promotion > p {
+    color: white;
+    margin-left: 0.5%;
+}
+
+#promotion > h1 {
+    color: white;
+    margin-left: 2%;
+}
+
+.article {
+    background-color: gray;
+    border-radius: 2%;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    background-size: 25%;
+}
+
+.article > p {
+    margin-left: 2%;
+    color: white;
+}
+
+.article > label {
+    font-weight: bold;
+    text-align: right;
+    color: white;
+}
+
+.label {
+    text-align: right;
+    margin-bottom: 2rem;
+    color: white;
+}
+#info1 {
+    width: 90%;
+    max-width: 1363px;
+    border-radius: 15%;
+    margin-left: 0.5rem;
+    margin-top: 5%;
+}
+
+#info2 {
+    width: 90%;
+    max-width: 1363px;
+    border-radius: 15%;
+    margin-left: 0.5rem;
+    margin-top: 5%;
+}
+
+#info3 {
+    width: 90%;
+    max-width: 1363px;
+    border-radius: 15%;
+    margin-left: 0.5rem;
+    margin-top: 5%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+a:hover{
+   color: blue; 
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+footer img {
+    width: 20%;
+    max-width: 1363px;
+}
+
+footer div>p {
+    text-align: right;
+}
+footer div {
+    flex: 1;
+}
